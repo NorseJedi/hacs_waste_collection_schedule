@@ -11845,10 +11845,13 @@
         "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/remidt_no.md.",
         "data": {
           "calendar_title": "Calendar Title",
-          "address": "Address"
+          "address": "Address",
+          "join_events": "Join Events"
         },
         "data_description": {
-          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used."
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "address": "Address for the waste collection.",
+          "join_events": "Join same-day events into one event per day."
         }
       },
       "reconfigure_remidt_no": {
@@ -11856,9 +11859,13 @@
         "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/remidt_no.md.",
         "data": {
           "calendar_title": "Calendar Title",
-          "address": "Address"
+          "address": "Address",
+          "join_events": "Join Events"
         },
-        "data_description": {}
+        "data_description": {
+          "address": "Address for the waste collection.",
+          "join_events": "Join same-day events into one event per day."
+        }
       },
       "args_sandnes_no": {
         "title": "Configure Source",
