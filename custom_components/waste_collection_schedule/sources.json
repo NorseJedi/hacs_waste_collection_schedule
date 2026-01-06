@@ -4044,6 +4044,12 @@
       "id": "recyclecoach_com"
     },
     {
+      "title": "Longueuil (QC)",
+      "module": "ics",
+      "default_params": {},
+      "id": "ics_longueuil_quebec"
+    },
+    {
       "title": "L\u00e9vis / Qu\u00e9bec",
       "module": "ics",
       "default_params": {},
@@ -4054,6 +4060,12 @@
       "module": "montreal_ca",
       "default_params": {},
       "id": "montreal_ca"
+    },
+    {
+      "title": "MRC de Roussillon (QC)",
+      "module": "info_collectes_ca",
+      "default_params": {},
+      "id": "info_collectes_ca"
     },
     {
       "title": "MRC Marguerite-D'Youville",
@@ -4071,6 +4083,12 @@
     },
     {
       "title": "Norfolk County (ON)",
+      "module": "recyclecoach_com",
+      "default_params": {},
+      "id": "recyclecoach_com"
+    },
+    {
+      "title": "Oak Bay (BC)",
       "module": "recyclecoach_com",
       "default_params": {},
       "id": "recyclecoach_com"
@@ -4529,6 +4547,14 @@
       "id": "opendata_bordeauxmetropole_fr"
     },
     {
+      "title": "M\u00e9tropole Europ\u00e9enne de Lille",
+      "module": "publidata_fr",
+      "default_params": {
+        "instance_id": 875
+      },
+      "id": "publidata_fr"
+    },
+    {
       "title": "Orl\u00e9ans M\u00e9tropole",
       "module": "publidata_fr",
       "default_params": {
@@ -4928,12 +4954,6 @@
       "id": "ics_abfallportal_nordhausen_de"
     },
     {
-      "title": "Abfallwirtschaft Landkreis Wolfenb\u00fcttel",
-      "module": "alw_wf_de",
-      "default_params": {},
-      "id": "alw_wf_de"
-    },
-    {
       "title": "Abfallwirtschaft Neckar-Odenwald-Kreis",
       "module": "awn_de",
       "default_params": {},
@@ -5162,10 +5182,12 @@
       "id": "c_trace_de"
     },
     {
-      "title": "Abfallwirtschaftsverbandes Lippe",
-      "module": "abfall_lippe_de",
-      "default_params": {},
-      "id": "abfall_lippe_de"
+      "title": "Abfallwirtschaftsverband Lippe",
+      "module": "abfallnavi_de",
+      "default_params": {
+        "service": "awvlippe"
+      },
+      "id": "abfallnavi_de"
     },
     {
       "title": "Abfallwirtschaftszweckverband Wartburgkreis (AZV)",
@@ -5275,6 +5297,14 @@
       "module": "jumomind_de",
       "default_params": {
         "service_id": "aoe"
+      },
+      "id": "jumomind_de"
+    },
+    {
+      "title": "ALW Wolfenb\u00fcttel",
+      "module": "jumomind_de",
+      "default_params": {
+        "service_id": "wol"
       },
       "id": "jumomind_de"
     },
@@ -5600,6 +5630,14 @@
         "app_id": "de.k4systems.abfallappbk"
       },
       "id": "app_abfallplus_de"
+    },
+    {
+      "title": "Bad Oeynhausen",
+      "module": "abfallkalender_prezero_network",
+      "default_params": {
+        "city": "bad-oeynhausen"
+      },
+      "id": "abfallkalender_prezero_network"
     },
     {
       "title": "Bad Soden a.Ts.",
@@ -6651,6 +6689,12 @@
       "id": "ics_heinz_entsorgung_de"
     },
     {
+      "title": "Heinz-Entsorgung (Landkreis Freising)",
+      "module": "heinz_entsorgung_de",
+      "default_params": {},
+      "id": "heinz_entsorgung_de"
+    },
+    {
       "title": "Hemer",
       "module": "lobbe_app",
       "default_params": {
@@ -7409,12 +7453,6 @@
       "id": "kwu_de"
     },
     {
-      "title": "K\u00f6nigstein",
-      "module": "ics",
-      "default_params": {},
-      "id": "ics_mein_abfallkalender_online"
-    },
-    {
       "title": "Landkreis Amberg-Sulzbach",
       "module": "ics",
       "default_params": {},
@@ -7519,6 +7557,14 @@
         "key": "49fe8a63a056adbfc43f051f61dd4a44"
       },
       "id": "abfall_io"
+    },
+    {
+      "title": "Landkreis Ebersberg",
+      "module": "awido_de",
+      "default_params": {
+        "customer": "ebe"
+      },
+      "id": "awido_de"
     },
     {
       "title": "Landkreis Eichst\u00e4tt (MyMuell App)",
@@ -8634,6 +8680,12 @@
       "id": "potsdam_de"
     },
     {
+      "title": "PreZero",
+      "module": "abfallkalender_prezero_network",
+      "default_params": {},
+      "id": "abfallkalender_prezero_network"
+    },
+    {
       "title": "Prignitz",
       "module": "app_abfallplus_de",
       "default_params": {
@@ -9105,6 +9157,14 @@
       "id": "ics_koblenz_de"
     },
     {
+      "title": "Stadt K\u00f6nigstein im Taunus",
+      "module": "awido_de",
+      "default_params": {
+        "customer": "koenigstein"
+      },
+      "id": "awido_de"
+    },
+    {
       "title": "Stadt Landshut",
       "module": "abfall_io",
       "default_params": {
@@ -9237,6 +9297,12 @@
       "id": "stadtreinigung_dresden_de"
     },
     {
+      "title": "Stadtreinigung Gie\u00dfen",
+      "module": "stadtreinigung_giessen_de",
+      "default_params": {},
+      "id": "stadtreinigung_giessen_de"
+    },
+    {
       "title": "Stadtreinigung Hamburg",
       "module": "stadtreinigung_hamburg",
       "default_params": {},
@@ -9275,6 +9341,18 @@
       "module": "ics",
       "default_params": {},
       "id": "ics_stadtwerke_huerth_de"
+    },
+    {
+      "title": "Stadtwerke R\u00f6srath",
+      "module": "stadtwerke_roesrath_de",
+      "default_params": {},
+      "id": "stadtwerke_roesrath_de"
+    },
+    {
+      "title": "Stadtwerke Speyer",
+      "module": "ics",
+      "default_params": {},
+      "id": "ics_gipsprojekt_de"
     },
     {
       "title": "Steinheim",
@@ -9635,6 +9713,14 @@
         "state": "Nordrhein-Westfalen"
       },
       "id": "lobbe_app"
+    },
+    {
+      "title": "Willich",
+      "module": "abfallkalender_prezero_network",
+      "default_params": {
+        "city": "willich"
+      },
+      "id": "abfallkalender_prezero_network"
     },
     {
       "title": "Willingen",
@@ -12236,6 +12322,12 @@
       "id": "ics_bettembourg_lu"
     },
     {
+      "title": "Betzdorf",
+      "module": "betzdorf_lu",
+      "default_params": {},
+      "id": "betzdorf_lu"
+    },
+    {
       "title": "Esch-sur-Alzette",
       "module": "esch_lu",
       "default_params": {},
@@ -12490,6 +12582,14 @@
         "service": "sudwestfryslan"
       },
       "id": "hvcgroep_nl"
+    },
+    {
+      "title": "Gemeente Venlo",
+      "module": "ximmio_nl",
+      "default_params": {
+        "company": "venlo"
+      },
+      "id": "ximmio_nl"
     },
     {
       "title": "Gemeente Venray",
@@ -14731,6 +14831,12 @@
       "id": "ics_anglesey_gov_wales"
     },
     {
+      "title": "Angus Council",
+      "module": "angus_gov_uk",
+      "default_params": {},
+      "id": "angus_gov_uk"
+    },
+    {
       "title": "Antrim and Newtownabbey",
       "module": "antrimandnewtownabbey_gov_uk",
       "default_params": {},
@@ -14961,7 +15067,19 @@
       "id": "ics_recollect"
     },
     {
+      "title": "Calderdale Council",
+      "module": "calderdale_gov_uk",
+      "default_params": {},
+      "id": "calderdale_gov_uk"
+    },
+    {
       "title": "Cambridge City Council",
+      "module": "greater_cambridge_waste_org",
+      "default_params": {},
+      "id": "greater_cambridge_waste_org"
+    },
+    {
+      "title": "Cambridge City Council (Deprecated)",
       "module": "cambridge_gov_uk",
       "default_params": {},
       "id": "cambridge_gov_uk"
@@ -15339,6 +15457,12 @@
       "id": "glasgow_gov_uk"
     },
     {
+      "title": "Greater Cambridge Waste, UK",
+      "module": "greater_cambridge_waste_org",
+      "default_params": {},
+      "id": "greater_cambridge_waste_org"
+    },
+    {
       "title": "Guildford Borough Council",
       "module": "guildford_gov_uk",
       "default_params": {},
@@ -15537,6 +15661,12 @@
       "id": "harrow_gov_uk"
     },
     {
+      "title": "London Borough of Havering",
+      "module": "havering_gov_uk",
+      "default_params": {},
+      "id": "havering_gov_uk"
+    },
+    {
       "title": "London Borough of Hounslow",
       "module": "hounslow_gov_uk",
       "default_params": {},
@@ -15659,6 +15789,12 @@
       "id": "moray_gov_uk"
     },
     {
+      "title": "Neath Port Talbot Council",
+      "module": "neath_port_talbot_gov_uk",
+      "default_params": {},
+      "id": "neath_port_talbot_gov_uk"
+    },
+    {
       "title": "Newark & Sherwood District Council",
       "module": "newark_sherwooddc_gov_uk",
       "default_params": {},
@@ -15739,6 +15875,12 @@
       "id": "nsomerset_gov_uk"
     },
     {
+      "title": "North Tyneside Council",
+      "module": "ics",
+      "default_params": {},
+      "id": "ics_northtyneside_gov_uk"
+    },
+    {
       "title": "North West Leicestershire District Council",
       "module": "nwleics_gov_uk",
       "default_params": {},
@@ -15755,6 +15897,12 @@
       "module": "northyorks_harrogate_gov_uk",
       "default_params": {},
       "id": "northyorks_harrogate_gov_uk"
+    },
+    {
+      "title": "North Yorkshire Council - Ryedale",
+      "module": "northyorks_ryedale_gov_uk",
+      "default_params": {},
+      "id": "northyorks_ryedale_gov_uk"
     },
     {
       "title": "North Yorkshire Council - Scarborough",
@@ -15809,6 +15957,12 @@
       "module": "peterborough_gov_uk",
       "default_params": {},
       "id": "peterborough_gov_uk"
+    },
+    {
+      "title": "Plymouth City Council",
+      "module": "plymouth_gov_uk",
+      "default_params": {},
+      "id": "plymouth_gov_uk"
     },
     {
       "title": "Portsmouth City Council",
@@ -15929,6 +16083,12 @@
       "id": "salford_gov_uk"
     },
     {
+      "title": "Scottish Borders Council",
+      "module": "scotborders_gov_uk",
+      "default_params": {},
+      "id": "scotborders_gov_uk"
+    },
+    {
       "title": "Sedgemoor District Council",
       "module": "iapp_itouchvision_com",
       "default_params": {
@@ -15986,6 +16146,12 @@
     },
     {
       "title": "South Cambridgeshire District Council",
+      "module": "greater_cambridge_waste_org",
+      "default_params": {},
+      "id": "greater_cambridge_waste_org"
+    },
+    {
+      "title": "South Cambridgeshire District Council (Deprecated)",
       "module": "scambs_gov_uk",
       "default_params": {},
       "id": "scambs_gov_uk"
@@ -16407,6 +16573,12 @@
         "council": "Worcester City"
       },
       "id": "roundlookup_uk"
+    },
+    {
+      "title": "Wrexham County Borough Council",
+      "module": "wrexham_gov_uk",
+      "default_params": {},
+      "id": "wrexham_gov_uk"
     },
     {
       "title": "Wychavon",
